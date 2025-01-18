@@ -189,7 +189,14 @@ main .section{
     font-weight: 600;
     margin: 0;
 }
-
+/* section-5 */
+.our-sponspors{
+    margin: 0 auto;
+    text-align: center;
+}
+.our-sponspors h3{
+    margin-bottom: 24px;
+}
 
 
 /* Responsive */
