@@ -34,7 +34,9 @@
     border: none;
     margin: 32px 0 50px 0;
 }
-
+.dark-0{
+    color: white;
+}
 .dark-1{
     color: #131313;
 }
@@ -126,6 +128,43 @@ main>section{
 }
 
 
+/* <!-- section 2--> */
+
+.features{
+    gap: 140px;
+}
+.lv-contain div{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    gap: 20px;
+}
+.lv-contain div h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin:  0;
+}
+/* button */
+
+.btn-primary{
+    padding: 42px 45px;
+    margin-left: -92px;
+    margin-top:-100px ;
+    background-color: #FF900E;
+}
+
+.yr{
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+}
+#ht{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+}
+
+
 
 /* Responsive */
 
@@ -152,4 +191,18 @@ main>section{
     .team{
         flex-direction: column;
     }
+    /* section-2 */
+
+    .features{
+        flex-direction: column;
+    }
+    .lv-contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lv-contain img{
+        width: 100%;
+    }
+
 }
